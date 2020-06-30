@@ -1,0 +1,1072 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ferhat/ontologies/"
+     xml:base="http://www.semanticweb.org/ferhat/ontologies/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontologies="http://www.semanticweb.org/ferhat/ontologies/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ferhat/ontologies/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/benzerdir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/benzerdir">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/benzerdir"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/gösterir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/gösterir"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/kaynaklanır -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/kaynaklanır"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Belirtiler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/Belirtiler">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Hastalıklar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Nedenler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Abarognosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Abarognosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Abarognosis"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AğırlıkHissiKaybolması"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/ParyetalLobBölgesiHasarlı"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Afazi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Afazi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/OkumaYazmaBecerisiniKaybetme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Tekrarlama"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Felç"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Travma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Agnozi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Agnozi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Agnozi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/CreutzfeldtJakob"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DuyuKaybı"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Felç"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Alpers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Alpers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/AlternanHemipleji -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/AlternanHemipleji">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AlternanHemipleji"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AtakGeçirir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Alzheimer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Alzheimer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Binswanger"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Parkinson"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/HafızaKaybı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/OkumaYazmaBecerisiniKaybetme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Titreme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Unutkanlık"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Distoni"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DengeBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/GelişimselGecikme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/UykuBozukluğu"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Apraksi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Apraksi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Distoni"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/AtakGeçirir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/AtakGeçirir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/AğırlıkHissiKaybolması -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/AğırlıkHissiKaybolması">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/AşırıHareketlilik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/AşırıHareketlilik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Bayılma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Bayılma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ensefalit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Halsizlik"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Dehidrasyon"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DüşükKanŞekeri"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Sinüzit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/BehçetHastalığı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/BehçetHastalığı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BehçetHastalığı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DeriAltıİltihaplanması"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Gözİltihaplanması"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/BellParalizisi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/BellParalizisi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BellParalizisi"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/YüzKaslarınıKontrolEdememe"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BeyinTümörü"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Felç"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/BeyinHasarı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/BeyinHasarı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Felç"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/BeyinTümörü -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/BeyinTümörü">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Beyinİltihabı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Beyinİltihabı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/BilinçKaybı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/BilinçKaybı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Binswanger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Binswanger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Binswanger"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/HafızaKaybı"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Bunalma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Bunalma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Bunama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Bunama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Binswanger"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BilinçKaybı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/HafızaKaybı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/CreutzfeldtJakob -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/CreutzfeldtJakob">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Agnozi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/CreutzfeldtJakob"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DuyuKaybı"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Dehidrasyon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Dehidrasyon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DengeBozukluğu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DengeBozukluğu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DeriAltıİltihaplanması -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DeriAltıİltihaplanması">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ensefalit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Parkinson"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Duyarlılık"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Halsizlik"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KasAğrısı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Titreme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/İştahsızlık"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliği -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliği">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Distoni"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AşırıHareketlilik"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliği"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/ÖğrenmeBozukluğu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Disleksi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Disleksi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Distoni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Distoni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Distoni"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/İlaçlar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ensefalit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DengeBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Halsizlik"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KasAğrısı"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Duyarlılık -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Duyarlılık">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DuyuKaybı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DuyuKaybı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/DüşükKanŞekeri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/DüşükKanŞekeri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Ensefalit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Ensefalit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ensefalit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Halsizlik"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Beyinİltihabı"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Epilepsi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Epilepsi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Parkinson"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Senkop"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bayılma"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BilinçKaybı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Halüsinasyon"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/NefesDarlığı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Stres"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Titreme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Unutkanlık"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/UykuHalinde"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BeyinTümörü"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Beyinİltihabı"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Felç"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Menenjit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Felç -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Felç">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/GelişimselGecikme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/GelişimselGecikme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Genetik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Genetik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Gözİltihaplanması -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Gözİltihaplanması">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/HafızaKaybı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/HafızaKaybı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Halsizlik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Halsizlik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Halüsinasyon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Halüsinasyon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Hidrosefali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Parkinson"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/GelişimselGecikme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KasAğrısı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Stres"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/UykuBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/UykuHalinde"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Huntington -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Huntington">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Distoni"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DengeBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KasAğrısı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/KasAğrısı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/KasAğrısı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Menenjit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Menenjit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Migren -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Migren">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AlternanHemipleji"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ensefalit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Parkinson"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AtakGeçirir"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Duyarlılık"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Halsizlik"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Titreme"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DengeBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KasAğrısı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Ms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Ms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AlternanHemipleji"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bunama"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Disleksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ensefalit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AtakGeçirir"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DengeBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Halsizlik"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/KonuşmaBozukluğu"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Genetik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/NefesDarlığı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/NefesDarlığı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/OkumaYazmaBecerisiniKaybetme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/OkumaYazmaBecerisiniKaybetme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Parkinson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Parkinson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Alzheimer"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Parkinson"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Titreme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Unutkanlık"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/UykuHalinde"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BeyinTümörü"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Travma"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Zehirlenme"/>
+        <kaynaklanır rdf:resource="http://www.semanticweb.org/ferhat/ontologies/İlaçlar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/ParyetalLobBölgesiHasarlı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/ParyetalLobBölgesiHasarlı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Senkop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Senkop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Senkop"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bayılma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Sinüzit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Sinüzit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Stres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Stres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Afazi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AlternanHemipleji"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Distoni"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hidrosefali"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AtakGeçirir"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/GelişimselGecikme"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Tekrarlama"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Apraksi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DikkatEksikliğiVeHiperaktiviteBozukluğu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Distoni"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SüngerimsiBeyinHastalığı"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DavranışsalBozukluk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Tekrarlama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Tekrarlama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Titreme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Titreme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Travma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Travma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Unutkanlık -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Unutkanlık">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/UykuBozukluğu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/UykuBozukluğu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/UykuHalinde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/UykuHalinde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Vertigo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Vertigo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Hastalıklar"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AlternanHemipleji"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AngelmanSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/BaşAğrısı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DevHücreliArterit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DiyabetikNöropati"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ensefalit"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Epilepsi"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Huntington"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Migren"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/MotorNöronHastalığı"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Ms"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Senkop"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/SturgeWeberSendromu"/>
+        <benzerdir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Vertigo"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/AtakGeçirir"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Bayılma"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/DengeBozukluğu"/>
+        <gösterir rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Halsizlik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/YüzKaslarınıKontrolEdememe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/YüzKaslarınıKontrolEdememe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/Zehirlenme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/Zehirlenme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/ÖğrenmeBozukluğu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/ÖğrenmeBozukluğu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/İlaçlar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/İlaçlar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Nedenler"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/İştahsızlık -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/İştahsızlık">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/Belirtiler"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
